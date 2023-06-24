@@ -1,0 +1,248 @@
+body {
+  color: white;
+  padding: 0;
+  margin: 0;
+  background-image: url(https://wallpapercave.com/wp/wp3493599.jpg);
+}
+.header-content {
+  margin: auto;
+  margin-top: 5%;
+  height: auto;
+}
+#title,
+#header-quote {
+  text-align: center;
+  max-width: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #f6f0ed;
+}
+#title {
+  margin: auto;
+  font-family: "Brush Script MT", Cursive;
+  font-size: 100pt;
+  height: 80pt;
+}
+#header-quote {
+  font-family: "Papyrus", Fantasy;
+  font-size: 50pt;
+  margin-left: auto;
+  margin-right: auto;
+  color: #7ea8be;
+  height: 50pt;
+}
+
+.nav-links {
+  display: flex; /* display links in a row */
+  justify-content: center; /* center links horizontally */
+  margin: auto; /* remove default margin from list */
+  padding: 10px; /* remove default padding from list */
+  width: 85%;
+  gap: 45px;
+  margin-left: 170px;
+}
+.nav-links a {
+  color: white;
+  font-size: 14pt;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+}
+.navbar a:hover {
+  color: #1985a1;
+  text-decoration: none;
+}
+.nav {
+  display: contents;
+}
+.nav-links li {
+  text-align: center;
+  width: 150px;
+  margin: 0 20px;
+  padding: 0;
+}
+.image-container {
+  display: flex; /* set the container to use flexbox */
+  justify-content: center; /* center the content horizontally */
+  align-items: center; /* center the content vertically */
+  height: 300px; /* set the height of the container */
+}
+#img-div {
+  display: flex; /* make the image a block element */
+  margin: auto; /* center the image horizontally */
+  height: 300px; /* set the maximum height of the image */
+  width: 50px 0%; /* set the maximum width of the image */
+}
+
+.biography-title {
+  text-align: center;
+  margin: auto;
+  margin-top: 0%;
+  margin-bottom: -1.5%;
+  font-size: 20pt;
+  padding: 20px;
+}
+
+.section-col {
+  font-size: 18pt;
+  padding: 15px;
+  height: center;
+  width: center;
+  margin: auto;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 13%;
+  margin-right: 13%;
+  text-align: justify;
+}
+
+.timeline {
+  margin: auto;
+  min-width: 350px;
+  max-width: 65%;
+  margin-top: 0%;
+}
+.timeline-title {
+  background-color: #4c5c68;
+  color: #dcdcdd;
+  padding: 25px;
+  font-size: 30px;
+}
+.list-group-item {
+  font-size: 18pt;
+  padding: 5px 0px;
+  border-left: medium solid #f6a90f;
+  padding-top: 15px;
+}
+a {
+  color: white;
+}
+
+.container-fluid.more-info {
+  background-color: #4c5c68;
+  width: auto;
+  height: 170px;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+.container-fluid.link-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+
+#facebook,
+#instagram {
+  display: inline-block;
+  border-radius: 20%;
+  margin-top: -20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 15px;
+  width: 100px;
+  height: auto;
+}
+
+.container-fluid.link-info span {
+  margin: 0 10px;
+  display: inline-block;
+  font-size: 10px;
+}
+
+.container-fluid.link-info span a {
+  padding: 5px;
+  color: #1985a1;
+}
+
+.container-fluid.link-info span a:hover {
+  color: #d35400;
+}
+
+.container-fluid.link-info span i {
+  font-size: 50px;
+  background-color: #c5c3c6;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  padding: 35px;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  font-size: 25pt;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#home-btn {
+  font-size: 18pt;
+  padding: 0px;
+  width: 65px;
+  height: 65px;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border: none;
+  color: #dcdcdd;
+  background-color: #1d395d;
+  border-radius: 50%;
+  outline: none;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV0_Ba-QQMUWI-Isphd9EjOx_iuOVfCsgddw&usqp=CAU");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.home-button {
+  padding: 15px;
+}
+
+@media screen and (max-width: 1000px) {
+  .timeline {
+    margin: auto;
+    min-width: 325px;
+    max-width: 950px;
+    margin-top: 5%;
+  }
+  .timeline-title {
+    background-color: #4c5c68;
+    color: white;
+    padding: 20px;
+    font-size: 18pt;
+  }
+  .section-col {
+    font-size: 14pt;
+    padding: 20px;
+    height: center;
+    width: center;
+    margin: auto;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-links a {
+    font-size: 12pt;
+    padding: 15px;
+    gap: 0px;
+  }
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    width: 0;
+    gap: 0px;
+  }
+
+  .list-group-item {
+    font-size: 14pt;
+    padding: 15px 15px;
+    border-left: medium solid #f6a90f;
+  }
+}
